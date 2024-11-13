@@ -337,7 +337,7 @@ const App = () => {
     setInputValue(event.target.value);
   }
 
-  const normalizeAccents = (str) => {
+  const normalizeAccents = (str: string) => {
     // Sostituzione delle lettere con accenti acuti con accenti gravi
     return str
       .replace(/[èéêë]/g, 'e´')
