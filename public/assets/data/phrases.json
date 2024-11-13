@@ -1,0 +1,338 @@
+[
+	{
+		"frase": "Chi ha tempo non aspetti tempo",
+		"category": "Massima"
+	},
+	{
+		"frase": "La speranza e´ l'ultima a morire",
+		"category": "Massima"
+	},
+	{
+		"frase": "Meglio tardi che mai",
+		"category": "Massima"
+	},
+	{
+		"frase": "Chi non risica non rosica",
+		"category": "Massima"
+	},
+	{
+		"frase": "Il mondo e´ di chi osa",
+		"category": "Massima"
+	},
+	{
+		"frase": "A mali estremi estremi rimedi",
+		"category": "Massima"
+	},
+	{
+		"frase": "Chi semina vento raccoglie tempesta",
+		"category": "Massima"
+	},
+	{
+		"frase": "L'unione fa la forza",
+		"category": "Massima"
+	},
+	{
+		"frase": "L'abito non fa il monaco",
+		"category": "Massima"
+	},
+	{
+		"frase": "Non e´ tutto oro quel che luccica",
+		"category": "Massima"
+	},
+	{
+		"frase": "La pazienza e´ la virtu´ dei forti",
+		"category": "Massima"
+	},
+	{
+		"frase": "Siamo tutti uguali davanti alla legge",
+		"category": "Massima"
+	},
+	{
+		"frase": "Non si puo´ fare una frittata senza rompere le uova",
+		"category": "Massima"
+	},
+	{
+		"frase": "Chi si accontenta gode",
+		"category": "Massima"
+	},
+	{
+		"frase": "Meglio un uovo oggi che una gallina domani",
+		"category": "Massima"
+	},
+	{
+		"frase": "Tutto e´ bene quel che finisce bene",
+		"category": "Massima"
+	},
+	{
+		"frase": "Il tempo e´ denaro",
+		"category": "Massima"
+	},
+	{
+		"frase": "L'importante e´ partecipare",
+		"category": "Massima"
+	},
+	{
+		"frase": "Il silenzio e´ d'oro",
+		"category": "Massima"
+	},
+	{
+		"frase": "L'erba del vicino e´ sempre piu´ verde",
+		"category": "Massima"
+	},
+	{
+		"frase": "La verita´ viene a galla",
+		"category": "Massima"
+	},
+	{
+		"frase": "L'amore non ha eta´",
+		"category": "Massima"
+	},
+	{
+		"frase": "Chi semina bene raccoglie bene",
+		"category": "Massima"
+	},
+	{
+		"frase": "La curiosita´ uccide il gatto",
+		"category": "Massima"
+	},
+	{
+		"frase": "La fortuna aiuta gli audaci",
+		"category": "Massima"
+	},
+	{
+		"frase": "Se la montagna non viene a Maometto, Maometto va alla montagna",
+		"category": "Massima"
+	},
+	{
+		"frase": "La verita´ e´ figlia del tempo",
+		"category": "Massima"
+	},
+	{
+		"frase": "Non tutte le ciambelle riescono col buco",
+		"category": "Massima"
+	},
+	{
+		"frase": "Non e´ mai troppo tardi",
+		"category": "Massima"
+	},
+	{
+		"frase": "Non c'e´ mai una fine senza un inizio",
+		"category": "Massima"
+	},
+	{
+		"frase": "Il miglior modo di prevedere il futuro e´ crearne uno",
+		"category": "Massima"
+	},
+	{
+		"frase": "Meglio tardi che mai",
+		"category": "Massima"
+	},
+	{
+		"frase": "Non c'e´ rosa senza spine",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Acqua passata non macina piu´",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Chi dorme non piglia pesci",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Il lupo perde il pelo ma non il vizio",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Una mela al giorno leva il medico di torno",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Chi si ferma e´ perduto",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "L'erba voglio non cresce nel giardino del re",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Ogni lasciata e´ persa",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Gallina vecchia fa buon brodo",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Il mattino ha l'oro in bocca",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Chi va piano va sano e va lontano",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Meglio un uovo oggi che una gallina domani",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "L'abito non fa il monaco",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Non e´ tutto oro quel che luccica",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "A caval donato non si guarda in bocca",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Chi trova un amico trova un tesoro",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Le buone azioni sono sempre ricompensate",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Non si puo´ avere la botte piena e la moglie ubriaca",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "La calma e´ la virtu´ dei forti",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "A ogni uccello il suo nido e´ bello",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "La gatta frettolosa ha fatto i gattini ciechi",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Quando il gatto non c'e´, i topi ballano",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Dove c'e´ fumo c'e´ arrosto",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "L'occasione fa l'uomo ladro",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Nessuna azione e´ senza conseguenze",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "La fretta e´ cattiva consigliera",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Chi lascia la strada vecchia per la nuova, sa quel che lascia ma non sa quel che trova",
+		"category": "Detto popolare"
+	},
+	{
+		"frase": "Parigi la citta´ delle luci",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "New York la citta´ che non dorme mai",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Roma la citta´ eterna",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Venezia la citta´ dei canali",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Tokyo la metropoli moderna",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Los Angeles la citta´ degli angeli",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Londra la capitale del Regno Unito",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Atene la citta´ antica",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Sydney la citta´ sulla baia",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Istanbul la citta´ ponte",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Barcellona la citta´ dei Gaudi´",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Citta´ del Messico la capitale del folklore",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Shanghai la citta´ della modernita´",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Berlino la citta´ della storia",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Mosca la capitale della Russia",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Dubai la citta´ del lusso",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Mumbai la capitale finanziaria dell'India",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Buenos Aires la Parigi dell'America",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Toronto la capitale culturale del Canada",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Citta´ del Vaticano il cuore della cristianita´",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Rio de Janeiro la citta´ del carnevale",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Lagos la metropoli africana",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Los Angeles la citta´ dei sogni",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "San Pietroburgo la citta´ dei canali",
+		"category": "Città famosa"
+	},
+	{
+		"frase": "Seoul la capitale",
+		"category": "Città famosa"
+	}
+]

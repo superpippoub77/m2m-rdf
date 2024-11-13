@@ -1,0 +1,44 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.consonants, .vowels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button.disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+button.vowel-request {
+  width: 100%;
+  padding: 10px;
+  background-color: #f1c40f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button.vowel-request:hover {
+  background-color: #e1b10f;
+}

@@ -1,0 +1,33 @@
+.wheel-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.perno {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  transform: translate(-50%, 0) rotate(180deg); /* Ruota la freccia */
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%); /* Forma di freccia */
+}
+
+.recoil {
+  animation: recoil-animation 0.1s ease-out;
+}
+
+@keyframes recoil-animation {
+  0% {
+    transform: translate(-50%, 0) rotate(180deg);
+  }
+  50% {
+    transform: translate(-55%, 0) rotate(180deg); /* Si sposta leggermente a sinistra */
+  }
+  100% {
+    transform: translate(-50%, 0) rotate(180deg); /* Torna alla posizione originale */
+  }
+}
