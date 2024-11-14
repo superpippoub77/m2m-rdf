@@ -23,9 +23,9 @@ jobs:
         npm run build # Adatta il comando al tuo progetto
 
     - name: Deploy to FTP server
-      uses: SamKirkland/FTP-Deploy-Action@4.5.0
+      uses: SamKirkland/FTP-Deploy-Action@v5 # Usa la versione più recente
       with:
-        server: ftp://ftp.aruba.it
+        server: ftp://ftp.filippomorano.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./build
