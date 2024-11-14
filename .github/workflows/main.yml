@@ -1,0 +1,27 @@
+name: Deploy to Aruba via FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Build the project
+      run: |
+        npm install
+        npm run build # Adatta il comando al tuo progetto
+
+    - name: Deploy to FTP server
+      uses: SamKirkland/FTP-Deploy-Action@4.5.0
+      with:
+        server: ftp://ftp.filippomorano.com
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./build
