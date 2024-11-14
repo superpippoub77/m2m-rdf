@@ -21,7 +21,8 @@ jobs:
     - name: Deploy to FTP server
       uses: SamKirkland/FTP-Deploy-Action@4.5.0
       with:
-        server: ftp://ftp.filippomorano.com
+        server: ftp://ftp.aruba.it
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./build
+        server-dir: /www/projects/m2m-rdf
