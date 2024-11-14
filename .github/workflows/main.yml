@@ -7,6 +7,7 @@ on:
   schedule:
     # Esegui ogni giorno alle 3:00 AM UTC (puoi modificare l'orario come preferisci)
     - cron: '0 3 * * *'
+  workflow_dispatch:  # Aggiunto per abilitare l'avvio manuale
 
 jobs:
   deploy:
