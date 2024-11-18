@@ -334,5 +334,229 @@
 	{
 		"frase": "Seoul la capitale",
 		"category": "Città famosa"
+	},
+	{
+		"frase": "La vita è un sogno, sogna senza limiti",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Chi sogna di giorno sa molte cose",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Le cose migliori accadono quando meno te lo aspetti",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Non smettere mai di inseguire i tuoi sogni",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Ogni giorno è un'opportunità per ricominciare",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Dove c'è amore, c'è anche forza",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "La forza nasce affrontando il buio",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Chi ama non smette mai di donare",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Il mondo cambia quando credi in te stesso",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Le sfide ci insegnano chi siamo davvero",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Il coraggio non è l'assenza di paura",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "La speranza è un sogno ad occhi aperti",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Chi non osa non ha nulla da perdere",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Ogni fallimento è un passo verso il successo",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Il futuro appartiene a chi crede nei sogni",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "L'unico limite è quello che ci mettiamo",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Sogna grande, inizia piccolo, agisci ora",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "I sogni sono la forza che guida la vita",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Ogni passo verso il futuro è una vittoria",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Fai ciò che ami e non lavorerai mai",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Sii il cambiamento che vuoi vedere nel mondo",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Non aspettare che le opportunità bussino",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Il successo è la somma di piccoli sforzi",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Ogni sogno è possibile se lo insegui",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "La paura è solo un'illusione",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Siamo quello che scegliamo di diventare",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "La vita è troppo breve per non essere felici",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Dove c'è determinazione, c'è una via",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Non smettere mai di credere in te stesso",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Ogni errore è un'opportunità per imparare",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Le difficoltà fanno crescere la nostra forza",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Il vero coraggio è agire nonostante la paura",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Chi semina vento raccoglie tempesta",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "La pazienza è la virtù dei forti",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "La speranza è l'ultima a morire",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Il miglior modo di prevedere il futuro è crearlo",
+		"category": "Frase famosa"
+	},
+	{
+		"frase": "Albert Einstein ha cambiato il mondo della scienza",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "Leonardo da Vinci fu un genio del Rinascimento",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "Galileo Galilei ha rivoluzionato l'astronomia",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "Mahatma Gandhi ha lottato per l'indipendenza",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "Nelson Mandela ha combattuto per la giustizia",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "William Shakespeare è il più grande drammaturgo",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "Marie Curie ha aperto la strada alla scienza nucleare",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "Frida Kahlo ha ispirato l'arte e la cultura",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "Walt Disney ha creato un impero dell'intrattenimento",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "Martin Luther King ha lottato per l'uguaglianza",
+		"category": "Personaggi Famosi"
+	},
+	{
+		"frase": "La Torre Eiffel è simbolo di Parigi",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "Il Colosseo racconta la storia di Roma",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "La Grande Muraglia è un'opera maestosa",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "Le Piramidi d'Egitto sono antiche meraviglie",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "Il Taj Mahal è un simbolo d'amore eterno",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "La Statua della Libertà è simbolo di libertà",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "La Piazza San Marco è cuore di Venezia",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "Il Parco Nazionale Yellowstone è un tesoro naturale",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "Il Monte Everest è la vetta più alta del mondo",
+		"category": "Luoghi Famosi"
+	},
+	{
+		"frase": "Machu Picchu è una meraviglia Inca perduta",
+		"category": "Luoghi Famosi"
 	}
 ]
