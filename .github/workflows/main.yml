@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # Esegui ogni giorno alle 3:00 AM UTC (puoi modificare l'orario come preferisci)
+    - cron: '0 3 * * *'
+  workflow_dispatch:  # Aggiunto per abilitare l'avvio manuale
 
 jobs:
   deploy:
@@ -19,10 +23,10 @@ jobs:
         npm run build # Adatta il comando al tuo progetto
 
     - name: Deploy to FTP server
-      uses: SamKirkland/FTP-Deploy-Action@4.5.0
+      uses: SamKirkland/FTP-Deploy-Action@v4.2.0  # Versione corretta
       with:
-        server: ftp://ftp.aruba.it
+        server: ftp.filippomorano.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./build
-        server-dir: /www.filippomorano.com/projects/m2m-rdf
+        local-dir: ./build/
+        server-dir: /www.filippomorano.com/projects/m2m-rdf/
