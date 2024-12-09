@@ -7,7 +7,7 @@ import noUser from './assets/images/noUser.png'
 import Wheel_of_Fortune_background from './assets/images/Wheel_of_Fortune_background.jpg'
 import Game_Board_Background from './assets/images/Game_Board_Background.jpg'
 import { Box, Button, ButtonGroup, Dialog, DialogActions, DialogContent, DialogTitle, Divider, Grid, Snackbar, TextField, Typography } from '@mui/material';
-import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
+// import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 
 import { Frase, Partecipant, SnackMessage, typeRDF, WheelItem } from './components/class/Interface.tsx';
 import { backgroundAnimation, flash } from './components/class/Keyframes.tsx';
@@ -27,9 +27,9 @@ const ITEM_PERDE = "PERDE"
 const ITEM_EXPRESS = "EXPR 1000"
 
 const App = () => {
-  const { transcript,
-    //listening, 
-    resetTranscript } = useSpeechRecognition();
+  // const { transcript,
+  //   //listening, 
+  //   resetTranscript } = useSpeechRecognition();
 
   const [secretPhrase, setSecretPhrase] = useState<Frase>({ frase: "", category: "" } as Frase); // Normalizza la frase segreta
   const [guessedLetters, setGuessedLetters] = useState(Array<string>);
@@ -73,12 +73,12 @@ const App = () => {
   }, []);
 
 
-  if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
-    setOpenSnackbar({ open: true, message: `Il tuo browser non sopporta  Speech Recognitiopn` } as SnackMessage)
-  }
+  // if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
+  //   setOpenSnackbar({ open: true, message: `Il tuo browser non sopporta  Speech Recognitiopn` } as SnackMessage)
+  // }
 
-  const startListening = () => SpeechRecognition.startListening({ continuous: true, language: 'it-IT' });
-  const stopListening = () => SpeechRecognition.stopListening();
+  // const startListening = () => SpeechRecognition.startListening({ continuous: true, language: 'it-IT' });
+  // const stopListening = () => SpeechRecognition.stopListening();
 
 
 
@@ -236,7 +236,7 @@ const App = () => {
     setShowWheel(true)
     setCountdown(Countdown) // Inizia il timer di countdown
     setSecretPhrase(prendiFraseCasuale()) // Imposta una nuova frase
-    startListening()
+    // startListening()
     toggleMusic()
   }, [prendiFraseCasuale, toggleMusic])
 
@@ -380,23 +380,23 @@ const App = () => {
 
 
 
-  useEffect(() => {
-    // Avvia automaticamente l'ascolto dello speech all'avvio del componente
-    startListening()
+  // useEffect(() => {
+  //   // Avvia automaticamente l'ascolto dello speech all'avvio del componente
+  //   // startListening()
 
-    const checkTranscriptForStartCommand = () => {
-      if (transcript.toLowerCase().includes("gioca")) {
-        handleStartGame()
-        resetTranscript() // Pulisce il transcript dopo aver rilevato il comando
-        stopListening() // Opzionale: interrompe l'ascolto dopo aver rilevato "gioca"
-      }
-    }
+  //   const checkTranscriptForStartCommand = () => {
+  //     if (transcript.toLowerCase().includes("gioca")) {
+  //       handleStartGame()
+  //       resetTranscript() // Pulisce il transcript dopo aver rilevato il comando
+  //       stopListening() // Opzionale: interrompe l'ascolto dopo aver rilevato "gioca"
+  //     }
+  //   }
 
-    // Controlla periodicamente il transcript per il comando "gioca"
-    const interval = setInterval(checkTranscriptForStartCommand, 1000);
+  //   // Controlla periodicamente il transcript per il comando "gioca"
+  //   const interval = setInterval(checkTranscriptForStartCommand, 1000);
 
-    return () => clearInterval(interval);
-  }, [transcript, handleStartGame, resetTranscript]);
+  //   return () => clearInterval(interval);
+  // }, [transcript, handleStartGame, resetTranscript]);
 
   // Function to close the dialog
   const handleCloseDialog = () => {
