@@ -1,69 +1,69 @@
 # La Ruota della Fortuna
 
-An interactive and fun app to guess mysterious phrases, built with **React**, **TypeScript**, and **Material-UI (MUI)**.
+Un'app divertente e interattiva per indovinare frasi misteriose, realizzata con **React**, **TypeScript** e **Material-UI (MUI)**.
 
-## Objective
+## Scopo del gioco
 
-Guess the mystery phrase by selecting letters or attempting to solve it directly.
-
----
-
-## Rules of the Game
-
-### 1. **Enter Player Names**
-- Before clicking the "Play" button, enter the participants' names.
-- Hover over the placeholder name and click with the left mouse button to display an input box for entering the name.
-
-### 2. **Start the Game**
-- Press the **"Play"** button.
-- The first turn starts with the player on the far left of the screen.
-
-### 3. **Turn Mechanics**
-1. Press the button to spin the wheel.
-2. When the wheel stops, the player has a limited amount of time to:
-   - Click on the desired letter.
-   - Attempt to solve the mystery phrase.
-
-### 4. **Buying Vowels**
-- If the player has enough points (≥ X), they can purchase one or more vowels.
-
-### 5. **Attempting to Solve**
-- If a player thinks they know the phrase, they can press the **"Solve"** button.
+Indovinare la frase misteriosa selezionando lettere o tentando direttamente la soluzione.
 
 ---
 
-## Settings
+## Regole del gioco
 
-- **Number of Players:** 3  
-- **Game Duration:** 5 minutes  
-- **Recommended Age:** 8+  
+### 1. **Inserire i nomi dei giocatori**
+- Prima di premere il pulsante "Gioca", inserire i nomi dei partecipanti.
+- Posizionare il mouse sul nome "fittizio" e cliccare con il tasto sinistro: apparirà una Input Box per inserire il nome.
+
+### 2. **Inizio del gioco**
+- Premere il pulsante **"Gioca"**.
+- Il primo turno inizia con il concorrente più a sinistra sullo schermo.
+
+### 3. **Turno di gioco**
+1. Premere il pulsante per far girare la ruota.
+2. Quando la ruota si ferma, il concorrente ha un tempo limitato per:
+   - Cliccare sulla lettera desiderata.
+   - Tentare di risolvere la frase misteriosa.
+
+### 4. **Acquisto delle vocali**
+- Se il giocatore ha un punteggio sufficiente (≥ X), può acquistare una o più vocali.
+
+### 5. **Tentativo di soluzione**
+- Se un giocatore ritiene di conoscere la frase, può premere il pulsante **"Do la soluzione"**.
 
 ---
 
-## Shortcuts
+## Impostazioni
 
-- **Spin the Wheel:** `CTRL`  
-- **Select Letters:** `A-Z`  
-
----
-
-## Example
-
-You can find an example of the project in action at [filippomorano.com/projects/m2m-rdf](https://filippomorano.com/projects/m2m-rdf).
+- **Numero di giocatori:** 3  
+- **Durata del gioco:** 5 minuti  
+- **Età consigliata:** 8+  
 
 ---
 
-## Technologies Used
+## Comandi rapidi (Shortcut)
+
+- **Giro della ruota:** `CTRL`  
+- **Selezione lettere:** `A-Z`  
+
+---
+
+## Esempio
+
+Puoi trovare un esempio del progetto in azione su [filippomorano.com/projects/m2m-rdf](https://filippomorano.com/projects/m2m-rdf).
+
+---
+
+## Tecnologie utilizzate
 
 - **Frontend:** React + TypeScript  
-- **UI Library:** Material-UI (MUI)  
+- **Libreria UI:** Material-UI (MUI)  
 
 ---
 
-## Contributions
+## Contributi
 
-This project is **open source**! Feel free to contribute, report issues, or suggest improvements.  
-You can clone the repository and start collaborating:
+Questo progetto è **open source**! Sentiti libero di contribuire, segnalare problemi o proporre miglioramenti.  
+Puoi clonare il repository e iniziare a collaborare:
 
 ```bash
-git clone <repository-url>
+git clone <URL-del-repository>
