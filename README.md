@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# La Ruota della Fortuna
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive and fun app to guess mysterious phrases, built with **React**, **TypeScript**, and **Material-UI (MUI)**.
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+Guess the mystery phrase by selecting letters or attempting to solve it directly.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Rules of the Game
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. **Enter Player Names**
+- Before clicking the "Play" button, enter the participants' names.
+- Hover over the placeholder name and click with the left mouse button to display an input box for entering the name.
 
-### `npm test`
+### 2. **Start the Game**
+- Press the **"Play"** button.
+- The first turn starts with the player on the far left of the screen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. **Turn Mechanics**
+1. Press the button to spin the wheel.
+2. When the wheel stops, the player has a limited amount of time to:
+   - Click on the desired letter.
+   - Attempt to solve the mystery phrase.
 
-### `npm run build`
+### 4. **Buying Vowels**
+- If the player has enough points (≥ X), they can purchase one or more vowels.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 5. **Attempting to Solve**
+- If a player thinks they know the phrase, they can press the **"Solve"** button.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Settings
 
-### `npm run eject`
+- **Number of Players:** 3  
+- **Game Duration:** 5 minutes  
+- **Recommended Age:** 8+  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Shortcuts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Spin the Wheel:** `CTRL`  
+- **Select Letters:** `A-Z`  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Example
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can find an example of the project in action at [filippomorano.com/projects/m2m-rdf](https://filippomorano.com/projects/m2m-rdf).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Frontend:** React + TypeScript  
+- **UI Library:** Material-UI (MUI)  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributions
 
-### Making a Progressive Web App
+This project is **open source**! Feel free to contribute, report issues, or suggest improvements.  
+You can clone the repository and start collaborating:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone <repository-url>
